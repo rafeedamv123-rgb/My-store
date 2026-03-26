@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 20px;
+}
+.navbar-brand {
+  display: flex;
+  gap: 80px;
+}
+.navbar-brand a {
+  text-decoration: none;
+  color: rgb(36, 0, 0);
+  font-size: 28px;
+  transition: color 0.3s ease;
+}
+.navbar-brand a:hover {
+  color: rgb(179, 117, 117);
+}
