@@ -17,6 +17,18 @@
 .add-to-cart:hover {
   background-color: #3a0c01;
 }
+.remove-from-cart {
+  background-color: #025a02;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: #1a0600 0px 2px 3px;
+}
+.remove-from-cart:hover {
+  background-color: #0d2001;
+}
 .price {
   font-size: 1.5em;
   font-weight: 600;

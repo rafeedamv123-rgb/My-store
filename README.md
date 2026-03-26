@@ -1,4 +1,4 @@
-# 🛒 My store - E-commerce Web App
+# My store - E-commerce Web App
 
 A responsive e-commerce web application built using React. This project allows users to browse products, view details, and add items to a cart. It demonstrates modern frontend development concepts including state management, component-based architecture, and responsive design.
 

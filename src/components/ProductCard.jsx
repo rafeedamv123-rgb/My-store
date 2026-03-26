@@ -6,8 +6,11 @@ function ProductCard({ product }) {
   function onButtonClick() {
     if (inCart) {
       removeFromCart(product.id);
-    } else addToCart(product);
-    alert("Added to cart");
+      alert("Removed from cart");
+    } else {
+      addToCart(product);
+      alert("Added to cart");
+    }
   }
 
   return (
@@ -21,11 +24,18 @@ function ProductCard({ product }) {
         <p className="price">${product.price.toFixed(2)}</p>
       </div>
       <div className="product-actions">
-        <button className="add-to-cart" onClick={onButtonClick}>
-          Add to Cart
-        </button>
+        {inCart ? (
+          <button className="remove-from-cart" onClick={onButtonClick}>
+            Remove from Cart
+          </button>
+        ) : (
+          <button className="add-to-cart" onClick={onButtonClick}>
+            Add to Cart
+          </button>
+        )}
       </div>
     </div>
   );
 }
+
 export default ProductCard;
