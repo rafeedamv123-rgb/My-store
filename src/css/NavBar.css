@@ -2,8 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  position: sticky;
+  top: 0;
+  background: rgb(20, 0, 0);
   padding: 10px 20px;
+  z-index: 100;
 }
 .navbar-brand {
   display: flex;
@@ -11,10 +14,15 @@
 }
 .navbar-brand a {
   text-decoration: none;
-  color: rgb(36, 0, 0);
-  font-size: 28px;
+  color: rgb(194, 187, 187);
+  font-size: 15px;
   transition: color 0.3s ease;
 }
 .navbar-brand a:hover {
   color: rgb(179, 117, 117);
+}
+.navbar-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(172, 164, 164);
 }

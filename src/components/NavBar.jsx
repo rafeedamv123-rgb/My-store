@@ -3,11 +3,11 @@ import "../css/NavBar.css";
 function NavBar() {
   return (
     <nav className="navbar">
-      <h1 className="navbar-title">My Store</h1>
+      <h1 className="navbar-title">MY STORE</h1>
       <div className="navbar-brand">
         <Link to="/">Home</Link>
 
-        <Link to="/cart">Cart</Link>
+        <Link to="/cart">Shopping bag</Link>
       </div>
     </nav>
   );

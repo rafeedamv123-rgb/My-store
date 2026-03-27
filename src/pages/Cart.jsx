@@ -13,7 +13,10 @@ function Cart() {
   }
   return (
     <div className="cart-page">
-      <h2>Your Cart</h2>
+      <div className="cart-header">
+        <h1>Your Cart</h1>
+        <h2 className="cart-count">Total Items: {cartItems.length}</h2>
+      </div>
       <div className="cart-items">
         {cartItems.map((product) => (
           <ProductCard key={product.id} product={product} />

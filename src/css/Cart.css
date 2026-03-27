@@ -14,3 +14,9 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.cart-page {
+  color: rgb(158, 143, 143);
+}
+.cart-header {
+  background-color: rgb(48, 27, 24);
+}

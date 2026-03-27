@@ -1,0 +1,28 @@
+.features {
+  margin: 50px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.feature h2 {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.feature p {
+  font-size: 14px;
+  color: rgb(173, 173, 173);
+}
+@media (max-width: 480px) {
+  .features {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px;
+  }
+}
