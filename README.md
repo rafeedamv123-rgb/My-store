@@ -51,6 +51,10 @@ src/
 
 ## Installation & Setup
 
+### Live Demo
+
+https://my-store-rafeedamv123-rgbs-projects.vercel.app/
+
 1. Clone the repository:
 
 ```
