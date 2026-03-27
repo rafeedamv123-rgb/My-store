@@ -21,31 +21,33 @@ A responsive e-commerce web application built using React. This project allows u
 
 ## Project Structure
 
-```
 src/
 │── components/
-│   ├── NavBar.jsx
-│   ├── ProductCard.jsx
-│
-│── pages/
-│   ├── Home.jsx
-│   ├── Cart.jsx
+│ ├── Customer.jsx
+│ ├── Features.jsx
+│ ├── Hero.jsx
+│ ├── NavBar.jsx
+│ ├── ProductCard.jsx
 │
 │── context/
-│   ├── CartContext.jsx
-│
-│── services/
-│   ├── api.js
+│ ├── CartContext.jsx
 │
 │── css/
-│   ├── ProductCard.css
-│   ├── Home.css
-│   ├── Cart.css
-│   ├── NavBar.css
+│ ├── App.css
+│ ├── Cart.css
+│ ├── Customer.css
+│ ├── Features.css
+│ ├── Hero.css
+│
+│── pages/
+│ ├── Home.jsx
+│ ├── Cart.jsx
+│
+│── services/
+│ ├── api.js
 │
 │── App.jsx
 │── main.jsx
-```
 
 ## Installation & Setup
 
